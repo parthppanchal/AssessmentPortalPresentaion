@@ -4,12 +4,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=1024" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <title>Latest Server Side Scripting Technology | Features &amp; Advantages | by Parth</title>
+    <title>Assesment Portal | Prepared by Parth</title>
 
-    <meta name="author" content="Bartek Szopka, Parth" />
+    <meta name="author" content="Parth" />
 
-    <link href="css/ita-presentation-style.css" rel="stylesheet" />
-
+    <link href="css/project-presentation-style.css" rel="stylesheet" />
+    <link href="css/animate.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.png" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 </head>
@@ -23,235 +23,77 @@
 
     <div id="impress">
 
-        <div id="intro" class="step slide" data-x="-1000" data-y="-1500">
-            <q><strong>Parth</strong></q>
-            <div id='container'>
-                <div id="hideMe">returns...</div>
-            </div>
+        <div id="intro" class="step title" data-x="0" data-y="0">
+            <h1 style="float:center">Assessment Portal</h1>
+            <p style="text-align:center">Assessment Portal is envisioned to be the overall platform to create, take and manage assessments</p>
+
         </div>
 
-        <div class="step" data-x="-1000" data-y="-500">
+        <div id="members" class="step" data-x="0" data-y="0" data-rotate-y="90" data-scale="1">
+            <div align="center">
+                <ol>
+                    <li class="member"> Parth Panchal <span class="empid">16289</span></li>
+                    <li class="member"> Ayush Chugh <span class="empid">16522</span></li>
+                    <li class="member"> Bikramaditya Sahoo <span class="empid">16180</span></li>
+                    <li class="member"> Brijesh Meshiya <span class="empid">16283</span></li>
+                    <li class="member"> Awanish Gupta <span class="empid">16198</span></li>
+                    <li class="member"> Bhasker Kalia <span class="empid">16249</span></li>
+                    <li class="member"> Deepesh Aggarwal <span class="empid">16247</span></li>
+                    <li class="member"> Darshan Kumar Mahor <span class="empid">16457</span></li>
+                </ol>
+              </div>
         </div>
 
-        <div class="step" data-x="-250" data-y="-500">
+        <div id="admin" class="step title" data-x="-1000" data-y="-550" data-rotate-z="-60">
+            <h1>ADMIN</h1>
+            <p>The admin user is vested the rights to create assessment with corresponding link. <br/>
+            This link will be distributed along with password through physical means.</p>
         </div>
 
-        <div class="step" data-x="500" data-y="-500">
+        <div id="admin-fns" class="step title" data-x="-1500" data-y="-1000"  data-z="-250" data-rotate-z="-60" data-rotate-x="-100">
+            <h1>ADMIN</h1>
+            <ol>
+                <li>Login</li>
+                <li>Create a brand new assessment</li>
+                <li>Edit some questions</li>
+                <li>If you don't like it, delete it!</li>
+            </ol>
         </div>
 
-        <div class="step title" data-x="-1000" data-y="-500">
-            <h1>SERVER SIDE</h1>
+        <div id="user" class="step title" data-x="1000" data-y="-500" data-rotate-z="60">
+            <h3>USER</h3>
+            <p>The user, the one who will be assessed, will visit the link &amp; enter the password to access the assessment.<br />
+            Our UI is designed to help users to keep track of each question using a preview that displays marked for review, answered &amp; unanswered questions. The marked for review questions overrides the status of being answered unless it's unmarked.<br/>
+            After submission, the result is available without skipping a second</p>
         </div>
 
-        <div class="step title" data-x="-250" data-y="-500">
-            <h1>SCRIPTING</h1>
+        <div id="user-fns" class="step title" data-x="1500" data-y="-1000" data-z="-250" data-rotate-z="60" data-rotate-x="-100">
+            <h3>USER</h3>
+            <ol>
+                <li>Take test</li>
+                <ol>
+                    <li>Mark questions for review</li>
+                </ol>
+                <li>Multiple types of questions</li>
+            </ol>
         </div>
 
-        <div class="step" data-x="-250" data-y="-75">
-            <table align="center" style="width: 500px">
-                <tr>
-                    <td>PHP</td>
-                    <td><div id="data-one" class="bar" style="width: 78.6%">78.6%</div></td>
-                </tr>
-                <tr>
-                    <td>ASP.NET</td>
-                    <td><div id="data-two" class="bar" style="width: 20.3%">20.3%</div></td>
-                </tr>
-                <tr>
-                    <td>Java</td>
-                    <td><div id="data-three" class="bar" style="width: 4.0%">4.0%</div></td>
-                </tr>
-                <tr>
-                    <td>ColdFusion</td>
-                    <td><div id="data-four" class="bar" style="width: 1.1%">1.1%</div></td>
-                </tr>
-                <tr>
-                    <td>Perl</td>
-                    <td><div id="data-five" class="bar" style="width: 0.8%">0.8%</div></td>
-                </tr>
-                <tr>
-                    <td>Ruby </td>
-                    <td><div id="data-six" class="bar" style="width: 0.5%">0.5%</div></td>
-                </tr>
-                <tr>
-                    <td>Python</td>
-                    <td><div id="data-seven" class="bar" style="width: 0.2%">0.2%</div></td>
-                </tr>
-            </table>
-            <span class="footnote"><sup>*</sup> SOURCE: W3Techs.com</span>
+        <div id="report" class="step title" data-x="0" data-y="800">
+            <h3>Report Generation</h3>
+            <p>On the other end, admin users can display the responses of all the questions, along with marks.<br/>
+            Moreover admin can also see as well as download aggregate reports of the tests to get a <span class="scaling"><em>bird's eye view</em></span> of assessment performance. </p>
         </div>
 
-        <div class="step" data-x="-250" data-y="0" data-z="7000" data-rotate="360" data-scale="1">
-            <table align="center" style="width: 500px">
-                <tr>
-                    <td>Python</td>
-                    <td><div id="data-eight" class="bar" style="width: 100%">15.3</div></td>
-                </tr>
-                <tr>
-                    <td>Java</td>
-                    <td><div id="data-nine" class="bar" style="width: 29.41%">4.5</div></td>
-                </tr>
-                <tr>
-                    <td>Javascript</td>
-                    <td><div id="data-ten" class="bar" style="width: 26.1%">4.0</div></td>
-                </tr>
-                <tr>
-                    <td>Scala</td>
-                    <td><div id="data-eleven" class="bar" style="width: 15.7%">2.4</div></td>
-                </tr>
-                <tr>
-                    <td>Erlang</td>
-                    <td><div id="data-twelve" class="bar" style="width: 11.1%">1.7</div></td>
-                </tr>
-                <tr>
-                    <td>Perl</td>
-                    <td><div id="data-thirteen" class="bar" style="width: 10.5%">1.6</div></td>
-                </tr>
-                <tr>
-                    <td>ColdFusion</td>
-                    <td><div id="data-fourteen" class="bar" style="width: 9.8%">1.5</div></td>
-                </tr>
-                <tr>
-                    <td>Ruby</td>
-                    <td><div id="data-fifteen" class="bar" style="width: 9.1%">1.4</div></td>
-                </tr>
-                <tr>
-                    <td>Lasso</td>
-                    <td><div id="data-sixteen" class="bar" style="width: 7.8%">1.3</div></td>
-                </tr>
-                <tr>
-                    <td>ASP.NET</td>
-                    <td><div id="data-seventeen" class="bar" style="width: 7.7%">1.2</div></td>
-                </tr>
-            </table>
+        <div id="report-fns" class="step title" data-x="0" data-y="1000" data-z="-500" data-rotate-x="-80">
+            <h3>Report Generation</h3>
+            <ol>
+                <li>Generate reports as per requirement</li>
+                <li>Donwload reports on demand</li>
+            </ol>
         </div>
 
-        <div class="step title" data-x="500" data-y="-500">
-            <h1>TECHNOLOGY</h1>
+        <div id="overview" class="step" data-x="0" data-y="0" data-scale="3.5">
         </div>
-
-        <div class="step title" data-x="500" data-y="-950">
-            <h1>LATEST</h1>
-        </div>
-
-        <div class="step tech" data-x="500" data-y="-75">
-            <ul>
-                <li>Django</li>
-                <li>Pyramid (Pylons)</li>
-                <li>Flask</li>
-                <li>Sever Side JavaScript (SSJS)</li>
-                <ul>
-                    <li>node.js</li>
-                </ul>
-                <li>Ruby on Rails</li>
-                <li>Kohana</li>
-            </ul>
-        </div>
-
-        <div class="step tech" data-x="1500" data-y="-75" data-z="100" data-rotate-y="30" data-scale="1">
-            <ul>
-                <li>Python</li>
-                <br />
-                <br />
-                <br />
-                <li>Javascript</li>
-                <br />
-                <br />
-                <li>Ruby</li>
-                <li>PHP</li>
-            </ul>
-        </div>
-
-        <div class="step title" data-x="750" data-y="1000" data-rotate="-180">
-                <h1>Features</h1>
-        </div>
-
-        <div id="features" class="step" data-x="750" data-y="1700">
-            <ul>
-                <li><b class="positioning">Conventions over Configuration</b></li>
-                <li><b class="rotating">Dont Repeat Yourself</b></li>
-                <li><b class="scaling">Agile Development</b></li>
-            </ul>
-        </div>
-
-        <div class="step title" data-x="0" data-y="1000" data-z="-750" data-rotate-y="90">
-                <h1>Conventions</h1>
-        </div>
-
-        <div class="step" data-x="0" data-y="1700" data-z="-750" data-rotate-y="90">
-            <ul>
-                <li>Massive number of conventions</li>
-                <li>Pre wired/ ready to go web stack</li>
-                <li>Code Generation following Model View Controller (MVC) approach</li>
-                <li>Generic Test Suites</li>
-            </ul>
-        </div>
-
-        <div class="step title" data-x="-750" data-y="1000" data-z="0" data-rotate-y="180">
-                <h1>DRY</h1>
-        </div>
-
-        <div class="step" data-x="-750" data-y="1700" data-z="0" data-rotate-y="180">
-            <ul>
-                <li>Single, unambiguous, authorative representation of every unique information </li>
-                <li>Logically related elements sync across the system seamlessly without affecting another elements</li>
-                <li>Easily created by data transformation and code generators, which allows the system to be built automatically</li>
-            </ul>
-        </div>
-
-        <div class="step title" data-x="0" data-y="1000" data-z="700" data-rotate-y="270">
-                <h1>Agile Developement</h1>
-        </div>
-
-        <div class="step" data-x="0" data-y="1700" data-z="700" data-rotate-y="270">
-            <ul>
-                <li>Immediate availability of work application</li>
-                <li>Extreme programming techniques</li>
-                <ul>
-                    <li>Test Driven Development (TDD)<li>
-                    <li>Behaviour Driven Development (BDD)</li>
-
-                <ul>
-            </ul>
-        </div>
-
-        <div id="overview" class="step" data-x="300" data-y="400" data-scale="4">
-        </div>
-
-<<<<<<< HEAD
-    <!--
-
-        This is an example of step element being scaled.
-
-        Again, we use a `data-` attribute, this time it's `data-scale="4"`, so it means that this
-        element will be 4 times larger than the others.
-        From presentation and transitions point of view it means, that it will have to be scaled
-        down (4 times) to make it back to its correct size.
-
-    -->
-    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
-        <span class="try">then you should try</span>
-        <h1>impress.js<sup>*</sup></h1>
-        <span class="footnote"><sup>*</sup> no rhyme intended</span>
-    </div>
-
-    <!--
-
-        This element introduces rotation.
-
-        Notation shouldn't be a surprise. We use `data-rotate="90"` attribute, meaning that this
-        element should be rotated by 90 degrees clockwise.
-
-    -->
-    <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
-        <p>It's a <strong>presentation tool</strong> <br/>
-        inspired by the idea behind <a href="http://prezi.com">prezi.com</a> <br/>
-        and based on the <strong>power of CSS3 transforms and transitions</strong> in modern browsers.</p>
-    </div>
-=======
->>>>>>> 789b4168e24c4b446ce2087aa8113272b0d05bf0
-
-    </div>
 
     <div class="hint">
         <p>Use a spacebar or arrow keys to navigate</p>
@@ -262,7 +104,10 @@
         }
     </script>
 
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-ui-1.9.2.custom.min.js"></script>
     <script src="js/impress.js"></script>
+    <script src="js/project-presentation.js"></script>
     <script>impress().init();</script>
 
 </body>
