@@ -110,7 +110,7 @@ a:focus {
 
 .step {
     position: relative;
-    width: 900px;
+    width: 1000px;
     padding: 40px;
     margin: 20px auto;
 
@@ -157,19 +157,6 @@ a:focus {
     font-size: 30px;
     line-height: 36px;
     letter-spacing: -1px;
-}
-
-.slide q {
-    display: block;
-    font-size: 50px;
-    line-height: 72px;
-
-    margin-top: 100px;
-}
-
-.slide q strong {
-    font-size: 64px;
-    white-space: nowrap;
 }
 
 .title {
@@ -230,20 +217,11 @@ li .member {
 transition: all 0.5s ease 0s;
 }
 
-
 .present #container {
     overflow:hidden;
     position:relative;
 }
 
-.present #hideMe {
-    -moz-animation: cssAnimation 0s ease-in 2s forwards;
-    -webkit-animation: cssAnimation 0s ease-in 2s forwards;
-    -o-animation: cssAnimation 0s ease-in 2s forwards;
-    animation: cssAnimation 0s ease-in 2s forwards;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-}
 
 @keyframes cssAnimation {
     to {
@@ -263,120 +241,6 @@ td {
     height: 0.75em;
 }
 
-.bar {
-    margin-bottom: 10px;
-    color: #000;
-    padding: 4px;
-    text-align: center;
-    background-color: #ff9e2c;
-    -webkit-animation-name:bar;
-    -webkit-animation-duration:0.5s;
-    -webkit-animation-iteration-count:1;
-    -webkit-animation-timing-function:ease-out;
-}
-
-.present #data-one { -webkit-animation-name:bar-one; }
-.present #data-two { -webkit-animation-name:bar-two; }
-.present #data-three { -webkit-animation-name:bar-three; }
-.present #data-four { -webkit-animation-name:bar-four; }
-.present #data-five { -webkit-animation-name:bar-five; }
-.present #data-six { -webkit-animation-name:bar-six; }
-.present #data-seven { -webkit-animation-name:bar-seven; }
-.present #data-eight { -webkit-animation-name:bar-eight; }
-.present #data-nine { -webkit-animation-name:bar-nine; }
-.present #data-ten { -webkit-animation-name:bar-ten; }
-.present #data-eleven { -webkit-animation-name:bar-eleven; }
-.present #data-twelve { -webkit-animation-name:bar-twelve; }
-.present #data-thirteen { -webkit-animation-name:bar-thirteen; }
-.present #data-fourteen { -webkit-animation-name:bar-fourteen; }
-.present #data-fifteen { -webkit-animation-name:bar-fifteen; }
-.present #data-sixteen { -webkit-animation-name:bar-sixteen; }
-.present #data-seventeen { -webkit-animation-name:bar-seventeen; }
-
-@-webkit-keyframes bar-one {
-0% { width:0%; }
-100% { width:78.6%; }
-}
-
-@-webkit-keyframes bar-two {
-0% { width:0%; }
-100% { width:20.3%; }
-}
-
-@-webkit-keyframes bar-three {
-0% { width:0%; }
-100% { width:4.0%; }
-}
-
-@-webkit-keyframes bar-four {
-0% { width:0%; }
-100% { width:1.1%; }
-}
-
-@-webkit-keyframes bar-five {
-0% { width:0%; }
-100% { width:0.8%; }
-}
-
-@-webkit-keyframes bar-six {
-0% { width:0%; }
-100% { width:0.5%; }
-}
-
-@-webkit-keyframes bar-seven {
-0% { width:0%; }
-100% { width:0.2%; }
-}
-
-@-webkit-keyframes bar-eight {
-0% { width:0%; }
-100% { width:100%; }
-}
-
-@-webkit-keyframes bar-nine {
-0% { width:0%; }
-100% { width:29.41%; }
-}
-
-@-webkit-keyframes bar-ten {
-0% { width:0%; }
-100% { width:26.1%; }
-}
-
-@-webkit-keyframes bar-eleven {
-0% { width:0%; }
-100% { width:15.7%; }
-}
-
-@-webkit-keyframes bar-twelve {
-0% { width:0%; }
-100% { width:11.1%; }
-}
-
-@-webkit-keyframes bar-thirteen {
-0% { width:0%; }
-100% { width:10.5%; }
-}
-
-@-webkit-keyframes bar-fourteen {
-0% { width:0%; }
-100% { width:9.8%; }
-}
-
-@-webkit-keyframes bar-fifteen {
-0% { width:0%; }
-100% { width:9.1%; }
-}
-
-@-webkit-keyframes bar-sixteen {
-0% { width:0%; }
-100% { width:7.8%; }
-}
-
-@-webkit-keyframes bar-seventeen {
-0% { width:0%; }
-100% { width:7.7%; }
-}
 
 .tech ul
 {
@@ -443,6 +307,10 @@ li b {
     cursor: pointer;
 }
 
+
+.impress-on-overview #tech{
+    opacity: 0.3
+}
 
 
 .hint {
