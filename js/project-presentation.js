@@ -25,8 +25,8 @@ $( document ).ready(function() {
         depth : 0.75,
         imageMode: "image"
     })) {
-$('#myCanvasContainer').hide();
-}
+        $('#myCanvasContainer').hide();
+    }
 
 animation('members', '.member', 'zoomInUp');
 animation('intro', 'h1', 'bounceInDown');
